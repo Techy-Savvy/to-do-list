@@ -3,11 +3,11 @@ import "./Tag.css";
 
 const Tag = ({ tagName, selectTag, selected }) => {
   const tagStyle = {
-    Frontend: { backgroundColor: "#fd99af" },
-    Backend: { backgroundColor: "#3fd4f4" },
-    Linux: { backgroundColor: "#ca8bfe" },
-    Devops: { backgroundColor: "#15d4c8" },
-    Python: { backgroundColor: "#fac608" },
+    Frontend: { backgroundColor: "#FFDD95" },
+    Backend: { backgroundColor: "#C5EBAA" },
+    Linux: { backgroundColor: "#80C4E9" },
+    Devops: { backgroundColor: "#EECAD5" },
+    Python: { backgroundColor: "#D1E9F6" },
     default: { backgroundColor: "#f9f9f9" },
   };
   return (
